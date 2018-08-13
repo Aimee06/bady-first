@@ -1,0 +1,307 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 56px;
+    background: #ffd100;
+    padding:0 60px;
+}
+#nav{
+    height: 56px;
+    /* overflow: hidden; */
+    width: 1230px;
+}
+.nav_l{
+    line-height: 56px;
+    float: left;
+}
+#nav ul{
+    margin-left: 75px;
+    height: 56px;
+    float: left;
+}
+#nav .ull li{
+    float: left;
+   padding: 0 30px;
+}
+#nav .ull li.te{
+    margin-top: 5px;
+    height: 51px;
+}
+#nav .ull li:hover{
+    background: black;
+    
+}
+#nav .ull .lala:hover{
+    background: #ffd100;   
+}
+#nav .ull .lala:hover a{
+    color: black;   
+}
+#nav .ull li.te:hover{
+    background: #ffd100;
+}
+#nav .ull li.tt:hover{
+    background: #ffd100;
+}
+#nav .ull li:hover a{
+    color: #ffd100;
+}
+#nav .ull li:hover #box a{
+    color: #999;
+}
+#nav .ull li a{
+    color: black;
+    line-height: 56px;
+    font-size: 12px;
+}
+#nav .fa{
+    position: relative;
+}
+#nav .fa:hover #box{
+    display: block;
+}
+#nav .fa ul li{
+    float: left;
+    padding: 0 20px;
+    font-size: 14px;
+  
+}
+#nav .fa ul li a{
+    display:block;
+    width: 76px;
+    height: 20px;
+}
+#nav .fa ul li a:hover{
+    background: white;
+    /* color: white; */
+
+}
+#nav .fa ul li:hover{
+    background: white;
+    /* color: white; */
+
+}
+#nav #box{
+    position: absolute;
+    z-index: 1;
+    width: 696px;
+    height: 114px;
+    left: -1px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    display: none;
+    background: white
+}
+#box ul{
+    margin: 0;
+}
+.zhi{
+    position: relative;
+}
+.zhi:hover #zhi_div{
+    display: block;
+}
+#zhi_div{
+    width: 100px;
+    height: 120px;
+    border: 1px solid #ddd;
+    position: absolute;
+    z-index: 1;
+    left: -1px;
+    padding-left:30px;
+    line-height: 40px;
+    display: none; 
+    background: white;
+    font-size: 14px;
+}
+#banner{
+    margin-top: 20px;
+    width: 1130px;
+    height: 300px;
+    background: pinl;
+    position: relative;
+   overflow: hidden;
+   left: 50px;
+}
+#bobo{
+    width: 5650px;
+    height: 300px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+}
+#bobo img{
+    width: 1130px;
+    height: 300px;
+    float: left;
+
+
+}
+#banner:hover span{
+    display: block;
+    
+}
+#banner span:hover{
+    color: #ffd100;
+}
+#banner span{
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* background: rgb(0,0,0,0.5); */
+    background: rgba(0,0,0,0.3);
+    top: 130px;
+    left: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    z-index: 2;
+    display: none;
+
+}
+#banner span#right{
+    left: 1050px;
+}
+.banner_b{
+    margin-top: 20px;
+    width: 100%;
+    height: 205px;
+    /* background: plum; */
+    position: relative;
+
+}
+.banner_b ul{
+    width: 1130px;
+    /* background: #ffd100; */
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+
+}
+.banner_b ul li a img{
+    float: left;
+    
+    width: 210px;
+    height: 168px;    
+}
+#shouye{
+    width: 1130px;
+    height: 56px;
+    margin: 0 auto;
+    background:white;
+    position: relative;
+
+}
+#shouye .shouyeul>li{
+    float: left;
+    padding:18px 60px 0 0;
+
+}
+#shouye a{
+    
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    padding-bottom: 17px;
+    margin-top: -3px;
+}
+#shouye ul li a.te{
+    border-bottom: 2px solid #444;
+    color: #282828;
+    margin-left: 422px;
+}
+#shouye ul li a:hover{
+    border-bottom: 2px solid #444;
+}
+#dage{
+    width: 1px;
+    height: 1000px;
+}
+#shouye>img{
+    width: 150px;
+    height: 79.66px;
+    position: absolute;
+    right:60px;
+    /* top:-10px; */
+}
+#work{
+    width: 100%;
+    height: 2624px;
+    background: plum;
+}
+.list_box{
+    width: 1150px;
+    height: 2624px;
+    background:pink;
+    margin: 0 auto;
+}
+.list_box ul li{
+    margin: 15px 0 0 0;
+    float: left;
+    /* background: white; */
+}
+.list_box #tu img{
+    width: 210px;
+    height: 158px;
+}
+.list_box .dong{
+    width: 210px;
+    height: 100px;
+    margin: 10px;
+    /* background: white; */
+    
+}
+.list_box .dong a{
+    color: #444;
+    font-size:16px;
+}
+.list_box .dong p{
+    color: #888;
+    font-size:12px;
+}
+.list_box .dong p span{
+    margin-left:18px;
+}
+.list_box #daga{
+    width: 210px;
+    /* height: 50px; */
+    /* border-top: 1px solid #999; */
+    padding: 0 10px;
+}
+.list_box #daga img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;vertical-align: middle;
+}
+/* .list_box #daga span:nth-of-type(1){
+    
+} */
+.list_box #daga a{
+    font-size: 14px;
+    color: #333;
+    /* margin-left: 8px; */
+    /* margin-bottom: 1px; */
+    
+}
+.list_box #daga a span{
+    margin-left: 8px;
+}
+.list_box #daga #spa{
+    margin-left: 25px;
+    color: #888;
+    font-size: 12px;
+    /* text-indent: 10px; */
+}
+
